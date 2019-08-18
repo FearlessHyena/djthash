@@ -1,0 +1,10 @@
+# IDE specific files
+.idea
+
+# Library modules and builds
+node_modules
+dist
+npm-debug.log*
+
+# Miscellaneous
+.DS_Store

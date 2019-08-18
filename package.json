@@ -1,0 +1,17 @@
+{
+  "name": "djthash",
+  "version": "1.0.0",
+  "description": "An ERC-721 standard implementation",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shadab Ambat",
+  "license": "MIT",
+  "devDependencies": {
+    "zeppelin-solidity": "^1.12.0"
+  }
+}
