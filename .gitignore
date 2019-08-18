@@ -5,6 +5,8 @@
 node_modules
 dist
 npm-debug.log*
+build
 
 # Miscellaneous
+.secret
 .DS_Store
