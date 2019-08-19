@@ -10,3 +10,4 @@ build
 # Miscellaneous
 .secret
 .DS_Store
+.etherscan.key

@@ -22,6 +22,7 @@ const HDWalletProvider = require('truffle-hdwallet-provider');
 const infuraKey = "fcdc78e8f0614d3196fc6a54c006894c";
 const fs = require('fs');
 const mnemonic = fs.readFileSync(".secret").toString().trim();
+const etherscan_key = fs.readFileSync(".etherscan.key").toString().trim();
 
 module.exports = {
   /**
@@ -94,5 +95,14 @@ module.exports = {
       //  evmVersion: "byzantium"
       // }
     }
+  },
+  plugins: [
+    'truffle-plugin-verify'
+  ],
+  verify: {
+    preamble: "Author: Shadab Ambat\nVersion: 1.0.0"
+  },
+  api_keys: {
+    etherscan: etherscan_key
   }
 };
