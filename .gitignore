@@ -1,0 +1,13 @@
+# IDE specific files
+.idea
+
+# Library modules and builds
+node_modules
+dist
+npm-debug.log*
+build
+
+# Miscellaneous
+.secret
+.DS_Store
+.etherscan.key
